@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--indentacion(colocar bien los bloques de codigo)-->
+    <head>
+        <meta charset="UTF-8"> <!--son estandares para que los textos no se vean raros, permite que se vean bien las letras en el idioma español-->
+        <title>Pagina de dinosaurios</title>
+        <link href="style.css" rel="stylesheet">
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Slabo+27px&display=swap" rel="stylesheet">
+
+    </head>
+
+
+    <header>
+
+    </header>
+
+
+    <body>
+    <h1>Pagina de dinosaurios</h1>
+
+    <h3>Imagenes de dinosaurios</h3>
+
+        <!--Imagen desde internet-->
+        <img class="img1"  src="https://th.bing.com/th/id/R.c52468e5b7ed8045752008f50af307b5?rik=AzbaJx5c8q8e9Q&pid=ImgRaw&r=0">
+
+    <br>
+ 
+        <!--imagen desde la computadora-->
+        <img class="img2" src="imagenes/dinosaurios-marinos.jpg">
+
+    <!--crear enlaces externos-->
+    <p>Si quieres ver mas imagenes de dinosaurios, <a href="https://www.bing.com/images/search?q=dinosaurios+en+agua&form=HDRSC3&first=1" target="_blank">da click aqui</a></p>
+    
+    <h3>Listas de dinosaurios</h3>
+    <p>3 cosas que los dinosaurios <strong>aman</strong></p>
+
+        <!--listas ordenadas, enlista con numeros-->
+        <ol> <!--ol, significa order list-->
+                <li>Les gusta nadar</li>
+                <li>Les gusta comer peces grandes
+                <li> Les gusta cazar solos</li>
+        </ol>
+
+   
+        <p>3 cosas que los dinosaurios <i>odian</i></p>
+        <!--lista desoordenada-->
+    <ul><!--unordered list-->
+      <li>No comer</li>  
+      <li>Invadir su espacio</li>
+      <li>Robar su presa</li>
+       
+
+    </ul>
+
+    <!--formularios, donde registramos informacion-->
+    <form>
+        <!--formularios con botones de radio-->
+        <p>¿Todos los dinosaurios son carnivoros? </p>
+        <label>
+          <input id="si"type="radio"value="si"name="Dinosaurios-carnivoros" checked>Si
+        </label>
+            <!--colocamos checked para que quede por de faul-->
+            <br>   <!--br es para que quede encima de otro y no seguido del otro-->
+        <label>
+            <input id="No"type="radio"value="No"name="Dinosaurios-carnivoros">No
+          </label>
+
+          <!--formulario con casillas de verificacion o checks-->
+        <p>¿Que tipo de personalidad tienen los dinosaurios marinos?</p>
+          <label>
+        <input id="Salvaje y miedoso" type="checkbox" value="salvaje y miedoso" name="personalidad">Salvaje y miedoso
+          </label>
+
+    <br>
+
+          <label>
+            <input id="Amable y vegetariano" type="checkbox" value="Amable y vegetariano" name="personalidad">Amable y vegetariano
+          </label>
+
+    <br>
+
+          <label>
+            <input id="Intimidante y feroz" type="checkbox" value="Intimidante y feroz" name="personalidad" checked>Intimidante  y feroz
+          </label>
+
+    </form>
+
+    </body>
+
+
+    <footer>
+
+            <p><small>Esta pagina fue creada fue creada durente el bootcamp del <a href="https://tecnolochicas.mx/"target="_blank">Tecnochicas Pro</a></small></p>
+
+    </footer>
+
+
+
+
+</html>
+<!--este es para hacer comentarios-->
+
+
