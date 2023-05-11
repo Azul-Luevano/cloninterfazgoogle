@@ -8,12 +8,12 @@
 
 ****
 
-## 1. Intro
+## 1. Intro 👀
 HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los dias en el navegador. Inlcuso, este sitio web donde estás viendo este contenido esta construido con HTML y CSS. 
 
 En este proyecto, con los conocimientos de HTML y CSS realice la clonación de la interfaz de Google 
 
-## 2. Que construi 
+## 2. Que construi 🎇
 En este proyecto me enfoque en construir la clonación de la interfaz de Google.
 Contiene las siguientes secciones:
 
@@ -23,5 +23,5 @@ Contiene las siguientes secciones:
 
 * **Footer**: Sección que incluye hipervinculos al final de la página. 
 
-## 3.  Objetivo del proyecto
+## 3.  Objetivo del proyecto ✌️
 Aprender a utilizar las etiquetas estandar de HTML5 y los estilos de CSS3. 
